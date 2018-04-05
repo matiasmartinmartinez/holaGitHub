@@ -1,5 +1,5 @@
 ---
-title: "Actividad 5"
+title: "Actividad 5 Modificado"
 author: "Bruno Zang- Matias Martinez"
 date: "2 de abril de 2018"
 output: pdf_document
@@ -9,26 +9,26 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-##### Incluir Imágen
+##### Incluir Im?gen
 
 ![](linealdeshielo.jpg)
-La extensión de hielo mensual de diciembre de 1979 a 2017 muestra una disminución de 3.7 por ciento por década. 
+La extensi?n de hielo mensual de diciembre de 1979 a 2017 muestra una disminuci?n de 3.7 por ciento por d?cada. 
 
 
 ![](deshielo.jpg)
 
-Estos mapas de concentración de hielo marino comparan las mínimas extensiones mínimas de hielo marino ártico de septiembre para los períodos especificados.
+Estos mapas de concentraci?n de hielo marino comparan las m?nimas extensiones m?nimas de hielo marino ?rtico de septiembre para los per?odos especificados.
 
 <https://twitter.com/estamundo/status/953666000876130304>.
 
 
-## Chunck con código de R
+## Chunck con c?digo de R
 
 
 
 ```{r millas,echo=TRUE}
 library(ggplot2)
-ggplot(data=mpg,aes(x=hwy,y=cty))+geom_point()+labs(x="Galones en carretera", y="Millas por galón ciudad", title="Gráfico de dispersión: Rendimiento en millas")
+ggplot(data=mpg,aes(x=hwy,y=cty))+geom_point()+labs(x="Galones en carretera", y="Millas por gal?n ciudad", title="Gr?fico de dispersi?n: Rendimiento en millas")
 ```
 ```{r millas,fog.width=5,fig.height=5}```
 
